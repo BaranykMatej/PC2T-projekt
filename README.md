@@ -1,2 +1,7 @@
 # PC2T-projekt
-Directory for PC2T university project
+
+## Matěj Baranyk (237853), Vojtěch Javorek (243498)
+
+### Information about repo:
+
+In the extras folder you can find proof of a working database (screenshot from PhpMyAdmin) as well import file for it. We've used Wampserver (ver. 3.3.0) to set this up. 
