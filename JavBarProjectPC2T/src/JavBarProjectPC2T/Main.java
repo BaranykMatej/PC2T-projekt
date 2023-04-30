@@ -9,13 +9,11 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws ClassNotFoundException, IOException {
-		// TODO Auto-generated method stub
 		
 		Manager manager = new Manager();
 		Scanner scanner = new Scanner(System.in);
         boolean running = true;
 		
-		// Load movie information from a database
 	    try {
 	        manager.load_from_database();
 	    } catch (SQLException e) {
@@ -190,7 +188,6 @@ public class Main {
          
         }
         scanner.close();
-        // Save movie information to a database
 	    try {
 	        manager.save_to_database();
 	        System.out.println("Saved to Database !");
