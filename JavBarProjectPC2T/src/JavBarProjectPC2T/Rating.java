@@ -6,7 +6,7 @@ public class Rating {
     private String comment;
 
     public Rating(float number, String comment) {
-        if (number > 10 || number < 1) {
+        if (number > 10 || number < 0) {
             System.out.println("Error: You've entered invalid number!");
             return;
         }
