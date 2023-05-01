@@ -6,10 +6,13 @@ public class Rating {
     private String comment;
 
     public Rating(float number, String comment) {
+        if (number > 10 || number < 1) {
+            System.out.println("Error: You've entered invalid number!");
+            return;
+        }
         this.number = number;
         this.comment = comment;
     }
-
     public float getNumber() {
         return number;
     }

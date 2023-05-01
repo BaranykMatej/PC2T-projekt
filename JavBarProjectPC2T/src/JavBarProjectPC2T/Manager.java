@@ -224,8 +224,10 @@ public class Manager {
             System.out.println("Imported !");
         } catch (IOException e) {
             System.out.println("Failed to load movie from file (file might not exist, check your spelling): " + fileName);
-            e.printStackTrace();
+            System.out.println("Error: " + e.getMessage());
         }
     }
+
+
 
 }
